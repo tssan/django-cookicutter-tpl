@@ -4,7 +4,7 @@ set -o errexit
 
 function print_help() {
     help="Run script - help:\n"
-    help+="./run.sh [action]\n\n"
+    help+="./manage.sh [action]\n\n"
     help+="actions:\n"
     help+="init          -   install venv\n"
     help+="clean         -   remove venv\n"
